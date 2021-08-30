@@ -6,10 +6,10 @@
 <h1>@ViewData["Title"]</h1>
 
 <div class="text-center">
-    <h1 class="display-4">Formulario de Producto</h1>
+    <h1 class="display-4">Editar Producto</h1>
 
     <form asp-controller="Producto" asp-action="Edit">
-        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="id" />
 
         <label asp-for="nombre" class="form-label"></label>
         <input asp-for="nombre" class="form-control form-control-sm" type="text" placeholder="Escribe un nombre" aria-label=".form-control-sm" />
